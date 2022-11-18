@@ -1,0 +1,289 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #fff;
+	font-family: "標楷體";
+}
+.container {
+	width: 1024px;
+	height: 768px;
+	background: #fff;
+	margin: auto;
+	padding: 1rem;
+	border: 1px solid #000;
+	margin-top: 1rem;
+}
+.box {
+	width: 800px;
+	height: 650px;
+	background: #eee;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+}
+.row {
+	flex-direction: column;
+	width: 800px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.xbox {
+	border: 1px solid #000;
+	width: 100px;
+	height: 70px;
+}
+#mid {
+	width: 800px;
+	line-height: 80px;
+}
+#mid span {
+	font-size: 2rem;
+	margin-left: 6rem;
+}
+#mid > #han {
+	margin-left: 28rem;
+}
+#A1 {
+	width: 230px;
+	height: 0px;
+	position: absolute;
+	border-bottom: 3px solid #000;
+	transform: rotate(35deg);
+	left: 850px;
+	top: 157px;
+}
+
+#A3 {
+	width: 270px;
+	height: 0px;
+	position: absolute;
+	border-bottom: 3px solid #000;
+	transform: rotate(35deg);
+	left: 840px;
+	bottom: 270px;
+}
+#B1 {
+	width: 240px;
+	height: 0px;
+	position: absolute;
+	border-bottom: 3px solid #000;
+	transform: rotate(145deg);
+	left: 835px;
+	top: 155px;
+}
+#B3 {
+	width: 230px;
+	height: 0px;
+	position: absolute;
+	border-bottom: 3px solid #000;
+	transform: rotate(145deg);
+	left: 851px;
+	bottom: 285px;
+}
+
+
+.chess {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	font-size: 3rem;
+	text-align: center;
+	line-height: 80px;
+	background: #fff;
+}
+#che {
+	position: absolute;
+	top: 30px;
+	left: 520px;
+}
+#ma {
+	position: absolute;
+	top: 30px;
+	left: 620px;
+}
+#xiang {
+	position: absolute;
+	top: 30px;
+	left: 720px;
+}
+#shi {
+	position: absolute;
+	top: 30px;
+	left: 820px;
+}
+#jiang {
+	position: absolute;
+	top: 30px;
+	left: 920px;
+}
+#shi2 {
+	position: absolute;
+	top: 30px;
+	right: 820px;
+}
+#che2 {
+	position: absolute;
+	top: 30px;
+	right: 520px;
+}
+#ma2 {
+	position: absolute;
+	top: 30px;
+	right: 620px;
+}
+#xiang2 {
+	position: absolute;
+	top: 30px;
+	right: 720px;
+}
+#bao {
+	position: absolute;
+	top: 160px;
+	left: 620px;
+}
+#bao2 {
+	position: absolute;
+	top: 160px;
+	right: 620px;
+}
+
+#zhu {
+	position: absolute;
+	top: 240px;
+	left: 520px;
+}
+#zhu2 {
+	position: absolute;
+	top: 240px;
+	left: 720px;
+}
+#zhu3 {
+	position: absolute;
+	top: 240px;
+	left: 920px;
+}
+#zhu4 {
+	position: absolute;
+	top: 240px;
+	right: 720px;
+}
+#zhu5 {
+	position: absolute;
+	top: 240px;
+	right: 520px;
+}
+.chessr {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	font-size: 3rem;
+	text-align: center;
+	line-height: 80px;
+	background: #fff;
+	color: #f00;
+}
+
+#bin {
+	position: absolute;
+	top: 450px;
+	right: 520px;
+}
+#bin2 {
+	position: absolute;
+	top: 450px;
+	right: 720px;
+}
+#bin3 {
+	position: absolute;
+	top: 450px;
+	right: 920px;
+}
+#bin4 {
+	position: absolute;
+	top: 450px;
+	left: 520px;
+}
+#bin5 {
+	position: absolute;
+	top: 450px;
+	left: 720px;
+}
+#pao {
+	position: absolute;
+	top: 530px;
+	left: 620px;
+}
+#pao2 {
+	position: absolute;
+	top: 530px;
+	right: 620px;
+}
+#zu {
+	position: absolute;
+	bottom: 180px;
+	left: 520px;
+}
+#zu2 {
+	position: absolute;
+	bottom: 180px;
+	right: 520px;
+}
+
+#mar {
+	position: absolute;
+	bottom: 180px;
+	left: 620px;
+}
+#mar2 {
+	position: absolute;
+	bottom: 180px;
+	right: 620px;
+}
+
+#xiangr {
+	position: absolute;
+	bottom: 180px;
+	left: 720px;
+}
+#xiangr2 {
+	position: absolute;
+	bottom: 180px;
+	right: 720px;
+}
+#shir {
+	position: absolute;
+	bottom: 180px;
+	left: 820px;
+}
+#shir2 {
+	position: absolute;
+	bottom: 180px;
+	right: 820px;
+}
+#shuai {
+	position: absolute;
+	bottom: 180px;
+	right: 920px;
+}
+#slogan1 {
+	font-size: 2rem;
+	writing-mode: vertical-lr;
+	position: absolute;
+	left: 300px;
+	top: 100px;
+}
+#slogan2 {
+	font-size: 2rem;
+	writing-mode: vertical-lr;
+	position: absolute;
+	right: 300px;
+	top: 100px;
+}
